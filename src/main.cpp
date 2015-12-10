@@ -65,7 +65,7 @@ int main( int argc, const char** argv ) {
 
    // Read the video stream
   //capture = cvCaptureFromCAM( -1 );
-    capture = cvCaptureFromFile("/Users/shaowei/Desktop/HCI/eyeLike-master/src/tylan4dir.mov");
+    capture = cvCaptureFromFile("/Users/shaowei/Desktop/HCI/goodVideos/2015-09-21_22-48-13-207-qiyuan.mov");
     outfile.open("/Users/shaowei/Desktop/HCI/eyeLike-master/src/afile.txt");
     gettimeofday(&startRun, NULL);
     frameCounter = 0;

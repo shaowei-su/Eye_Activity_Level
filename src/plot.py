@@ -4,7 +4,7 @@ import scipy.signal as signal
 import numpy as np
 import matplotlib.pyplot as plt
 
-with open("afile--no-move.txt") as f:
+with open("afile--2015-09-21_22-48-13-207-qiyuan.txt") as f:
     content = f.readlines()
 numFrames = len(content)
 print numFrames
@@ -148,20 +148,20 @@ rightYAVG = sum(rightYf) / numFrames
 #compute the delta value
 eyeActivity = 0
 deltaLeftX = []
-for i in range(len(leftXf)):
-    deltaLeftX.append(abs(leftXf[i] - leftXAVG))
+for i in range(1, len(leftXf)):
+    deltaLeftX.append(abs(leftXf[i] - leftXf[i-1]))
 eyeActivity += sum(deltaLeftX)
 deltaLeftY = []
-for i in range(len(leftYf)):
-    deltaLeftY.append(abs(leftYf[i] - leftYAVG))
+for i in range(1, len(leftYf)):
+    deltaLeftY.append(abs(leftYf[i] - leftYf[i-1]))
 eyeActivity += sum(deltaLeftY)
 deltaRightX = []
-for i in range(len(rightXf)):
-    deltaRightX.append(abs(rightXf[i] - rightXAVG))
+for i in range(1, len(rightXf)):
+    deltaRightX.append(abs(rightXf[i] - rightXf[i-1]))
 eyeActivity += sum(deltaRightX)
 deltaRightY = []
-for i in range(len(rightYf)):
-    deltaRightY.append(abs(rightYf[i] - rightYAVG))
+for i in range(1, len(rightYf)):
+    deltaRightY.append(abs(rightYf[i] - rightYf[i-1]))
 eyeActivity += sum(deltaRightY)
 
 #activity per frame
