@@ -83,6 +83,7 @@ where n is the number of frames; position composes of leftx, lefty, rightx and r
 
 For the remainder of the semester I plan to apply the EyeActivity feature to the video files obtained from the deception project.  I will do a statistical analysis to see if there are any differences between the eye activity level between individuals who are deceptive or not, as well as if there are differences in the level of activity based on the type of questions individuals answer.. 
 
+##Notes form _eyeLike_:
 
 ###Building
 
@@ -114,15 +115,6 @@ Published by the _eyeLike_ author:
 
 - [Using Fabian Timm's Algorithm](http://thume.ca/projects/2012/11/04/simple-accurate-eye-center-tracking-in-opencv/)
 
-###Paper:
-Timm and Barth. Accurate eye centre localisation by means of gradients.
-In Proceedings of the Int. Conference on Computer Theory and
-Applications (VISAPP), volume 1, pages 125-130, Algarve, Portugal,
-2011. INSTICC.
-
-(also see youtube video at http://www.youtube.com/watch?feature=player_embedded&v=aGmGyFLQAFM)
-
-This document is a summary of my work this semester so far and my plans for the rest of the semester.
 
 
 
