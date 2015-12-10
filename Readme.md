@@ -78,12 +78,6 @@ where n is the number of frames; position composes of leftx, lefty, rightx and r
 | 2015-09-22_10-08-05-149-taylan | Yes  | 2.09 |
 | 2015-09-21_22-48-13-207-qiyuan | No | 3.59 |
 
-Stable eyes
-Shifty eyes
-EyeActivity
-1.87
-4.04
-
 
 ###FUTURE WORK THIS SEMESTER
 
